@@ -10,10 +10,10 @@ import org.springframework.core.io.Resource;
 public class Cizim {
 	public static void main(String[] args) {
 		
-		ApplicationContext context = new ClassPathXmlApplicationContext( new String[] {"spring.xml"});
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext( new String[] {"spring.xml"});
 		
 		/*
-		 * * Bir projede birden cok Spring yapilandirma dosyalariyla calisma imkanÄi saglar.
+		 * * Bir projede birden cok Spring yapilandirma dosyalariyla calisma imkani saglar.
 		ApplicationContext context = new ClassPathXmlApplicationContext( new String[] {"spring.xml",
 		"spring2.xml",
 		"spring3.xml",
@@ -21,9 +21,9 @@ public class Cizim {
 		});
 		  */
 		
-		BeanFactory beanFactory = context;
+		//BeanFactory beanFactory = context;
 		
-		Ucgen ucgen = (Ucgen) beanFactory.getBean("ucgen");
+		Ucgen ucgen = (Ucgen) applicationContext.getBean("ucgen");
 		ucgen.ciz();
 		
 	
