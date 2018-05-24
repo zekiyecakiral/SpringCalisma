@@ -1,4 +1,4 @@
-package com.zky.dependencyInjection;
+package com.zky.DIOrnek1;
 
 
 public class Test {

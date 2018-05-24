@@ -1,4 +1,4 @@
-package com.zky.dependencyInjection;
+package com.zky.DIOrnek1;
 
 
 //Bu uygulama dependencyInjection'a uymayan bir ornek.Once uymayan ornegi gorelim..dependencyInjectionin önemini görecegiz.

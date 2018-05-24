@@ -1,4 +1,4 @@
-package com.zky.dependencyInjection2;
+package com.zky.DIOrnek2;
 
 public class SmsService implements IMessageService {
 
