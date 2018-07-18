@@ -2,7 +2,7 @@ package com.zky.DIOrnek4;
 
 public class Program {
 
-	 public static void main(String[] args)
+	public static void main(String[] args)
 	    {
 	        Vasita vasitaAraba = new Vasita(new Araba());
 	        vasitaAraba.Kullan();
@@ -13,4 +13,5 @@ public class Program {
 	        Vasita vasitaMotor = new Vasita(new Motor());
 	        vasitaMotor.Kullan();
 	    }
+	  
 }

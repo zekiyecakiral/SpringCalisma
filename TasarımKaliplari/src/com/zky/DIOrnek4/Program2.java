@@ -1,6 +1,7 @@
 package com.zky.DIOrnek4;
 
 public class Program2 {
+	/*
 	public static void main(String[] args)
 	    {
 	        Vasita2 vasitaAraba = new Vasita2();
@@ -15,5 +16,6 @@ public class Program2 {
 	        vasitaMotor._tasit = new Motor();
 	        vasitaMotor.Kullan();
 	    }
+	    */
 
 }
